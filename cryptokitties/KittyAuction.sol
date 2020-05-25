@@ -126,7 +126,7 @@ contract KittyAuction is KittyBreeding {
     /// @dev Transfers the balance of the sale auction contract
     /// to the KittyCore contract. We use two-step withdrawal to
     /// prevent two transfer calls in the auction bid function.
-    function withdrawAuctionBalances() external view onlyCLevel {
+    function withdrawAuctionBalances() external onlyCLevel {
         saleAuction.withdrawBalance();
         siringAuction.withdrawBalance();
     }
