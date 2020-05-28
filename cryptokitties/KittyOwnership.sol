@@ -1,9 +1,9 @@
 pragma solidity ^0.6.0;
 // SPDX-License-Identifier: MIT
 
-import "browser/cryptokitties/KittyBase.sol";
-import "browser/cryptokitties/ERC721.sol";
-import "browser/cryptokitties/ERC721Metadata.sol";
+import "./KittyBase.sol";
+import "./ERC721.sol";
+import "./ERC721Metadata.sol";
 
 contract KittyOwnership is KittyBase, ERC721 {
 

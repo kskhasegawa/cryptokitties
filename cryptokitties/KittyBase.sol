@@ -1,9 +1,9 @@
 pragma solidity ^0.6.0;
 // SPDX-License-Identifier: MIT
 
-import "browser/cryptokitties/KittyAccessControl.sol";
-import "browser/cryptokitties/SiringClockAuction.sol";
-import "browser/cryptokitties/SaleClockAuction.sol";
+import "./KittyAccessControl.sol";
+import "./SiringClockAuction.sol";
+import "./SaleClockAuction.sol";
 
 
 /// @title Base contract for CryptoKitties. Holds all common structs, events and base variables.

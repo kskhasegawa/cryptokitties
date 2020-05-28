@@ -1,7 +1,7 @@
 pragma solidity ^0.6.0;
 // SPDX-License-Identifier: MIT
 
-import "browser/cryptokitties/KittyBreeding.sol";
+import "./KittyBreeding.sol";
 
 /// @title Handles creating auctions for sale and siring of kitties.
 ///  This wrapper of ReverseAuction exists only so that users can create

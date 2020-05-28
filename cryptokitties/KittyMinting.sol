@@ -1,7 +1,7 @@
 pragma solidity ^0.6.0;
 // SPDX-License-Identifier: MIT
 
-import "browser/cryptokitties/KittyAuction.sol";
+import "./KittyAuction.sol";
 
 /// @title all functions related to creating kittens
 contract KittyMinting is KittyAuction {

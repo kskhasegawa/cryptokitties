@@ -1,7 +1,7 @@
 pragma solidity ^0.6.0;
 // SPDX-License-Identifier: MIT
 
-import "browser/cryptokitties/ERC721.sol";
+import "./ERC721.sol";
 /// @title Auction Core
 /// @dev Contains models, variables, and internal methods for the auction.
 /// @notice We omit a fallback function to prevent accidental sends to this contract.

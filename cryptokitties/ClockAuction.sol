@@ -1,8 +1,8 @@
 pragma solidity ^0.6.0;
 // SPDX-License-Identifier: MIT
 
-import "browser/cryptokitties/Pausable.sol";
-import "browser/cryptokitties/ClockAuctionBase.sol";
+import "./Pausable.sol";
+import "./ClockAuctionBase.sol";
 
 /// @title Clock auction for non-fungible tokens.
 /// @notice We omit a fallback function to prevent accidental sends to this contract.

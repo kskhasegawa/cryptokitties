@@ -1,8 +1,8 @@
 pragma solidity ^0.6.0;
 // SPDX-License-Identifier: MIT
 
-import "browser/cryptokitties/KittyOwnership.sol";
-import "browser/cryptokitties/GeneScienceInterface.sol";
+import "./KittyOwnership.sol";
+import "./GeneScienceInterface.sol";
 
 /// @title A facet of KittyCore that manages Kitty siring, gestation, and birth.
 /// @author Axiom Zen (https://www.axiomzen.co)

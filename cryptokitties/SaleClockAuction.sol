@@ -1,7 +1,7 @@
 pragma solidity ^0.6.0;
 // SPDX-License-Identifier: MIT
 
-import "browser/cryptokitties/ClockAuction.sol";
+import "./ClockAuction.sol";
 
 /// @title Clock auction modified for sale of kitties
 /// @notice We omit a fallback function to prevent accidental sends to this contract.

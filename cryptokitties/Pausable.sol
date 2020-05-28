@@ -1,7 +1,7 @@
 pragma solidity ^0.6.0;
 // SPDX-License-Identifier: MIT
 
-import "browser/cryptokitties/Ownable.sol";
+import "./Ownable.sol";
 
 /**
  * @title Pausable
