@@ -225,7 +225,7 @@ contract KittyBreeding is KittyOwnership {
         pregnantKitties++;
 
         // Emit the pregnancy event.
-        Pregnant(kittyIndexToOwner[_matronId], _matronId, _sireId, matron.cooldownEndBlock);
+        emit Pregnant(kittyIndexToOwner[_matronId], _matronId, _sireId, matron.cooldownEndBlock);
     }
 
     /// @notice Breed a Kitty you own (as matron) with a sire that you own, or for which you

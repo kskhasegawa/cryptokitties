@@ -84,7 +84,7 @@ contract ClockAuctionBase {
     function _cancelAuction(uint256 _tokenId, address _seller) internal {
         _removeAuction(_tokenId);
         _transfer(_seller, _tokenId);
-        AuctionCancelled(_tokenId);
+        emit AuctionCancelled(_tokenId);
     }
 
     /// @dev Computes the price and transfers winnings.
@@ -145,7 +145,7 @@ contract ClockAuctionBase {
         msg.sender.transfer(bidExcess);
 
         // Tell the world!
-        AuctionSuccessful(_tokenId, price, msg.sender);
+        emit AuctionSuccessful(_tokenId, price, msg.sender);
 
         return price;
     }
